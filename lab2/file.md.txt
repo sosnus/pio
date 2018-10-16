@@ -1,0 +1,37 @@
+[osoba]
+[klient]
+[pracownik]
+[dorosly]
+[dzicko]
+[wypozyczalnia]
+[wypozyczone narzedzie (max5)]
+[wypozyczenie (max 3)]
+
+
+[budynek]->[b mieszkalny]
+[budynek]->[b publiczny]
+[b mieszkalny]-[note: liczba mieszkan{bg:cornsilk}]
+[jednorodzinne]-[note: liczba pokoi{bg:cornsilk}]
+[budynek]-[note: pow. calkowita pow. uzyteczna{bg:cornsilk}]
+[b mieszkalny]->[jednorodzinny]
+[b mieszkalny]->[blok 3p]
+[b mieszkalny]->[blok 4p]
+[b publiczny]->[szkola]
+[b publiczny]->[szpital]
+[b publiczny]->[biurowiec]
+
+
+[budynek]->[b mieszkalny]
+[budynek]->[b publiczny]
+[b mieszkalny]-[ liczba mieszkan {bg:wheat}]
+[jednorodzinne]-[note: liczba pokoi{bg:cornsilk}]
+[budynek]-[note: pow. calkowita pow. uzyteczna{bg:cornsilk}]
+[b mieszkalny]->[jednorodzinne]
+[b mieszkalny]->[blok 3p]
+[b mieszkalny]->[blok 4p]
+[b publiczny]->[szkola]
+[b publiczny]->[szpital]
+[b publiczny]->[biurowiec]
+
+
+agregacja???
